@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Licorice&family=Roboto+Mono:ital@0;1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background-color: #68b8ab; */
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; */
+  height: 2000px;
+}
+
+.birthday-cake {
+  position: relative;
+  left: 875px;
+  top: 370px;
+}
+
+.jumbotron {
+  position: absolute;
+  top: 560px;
+  left: 550px;
+  padding: 2rem 1rem;
+  z-index: 5;
+  /* background-color: #e2edff; */
+}
+
+.holder {
+  position: absolute;
+  width: 350px;
+  height: 20px;
+  border-radius: 100px;
+  background-color: #212f3c;
+  left: -140px;
+  top: 10px;
+}
+
+.holder:before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 150px;
+  background-color: #cacfd2;
+  left: 130px;
+  top: 20px;
+}
+.holder:after {
+  content: "";
+  position: absolute;
+  /* background-color: #68b8ab; */
+  background-color: #ffffff;
+  width: 100px;
+  height: 135px;
+  border-radius: 30px 30px 0 0;
+  left: 65px;
+  top: 20px;
+  /* box-shadow: 125px 0 #68b8ab; */
+  box-shadow: 125px 0 #ffffff;
+}
+
+.shadow {
+  position: absolute;
+  width: 350px;
+  height: 20px;
+  border-radius: 50%;
+  top: 170px;
+  left: -135px;
+  background-color: rgba(0, 0, 0, 0.095);
+  z-index: 1;
+}
+
+.shadow:before {
+  content: "";
+  position: absolute;
+  background-color: #cacfd2;
+  width: 150px;
+  height: 20px;
+  border-radius: 20px;
+  top: -10px;
+  left: 96px;
+}
+
+.cake {
+  position: absolute;
+  overflow: hidden;
+  width: 275px;
+  height: 140px;
+  background-color: #fad7a0;
+  top: -130px;
+  left: -101px;
+  border-radius: 30px 30px 0 0;
+}
+
+.cake:before {
+  content: "";
+  position: absolute;
+  background-color: #935116;
+  width: 275px;
+  height: 15px;
+  top: 75px;
+  box-shadow: 0 30px #935116;
+}
+
+.cake:after {
+  content: "";
+  position: absolute;
+  background-color: #573612;
+  width: 275px;
+  height: 40px;
+  box-shadow: inset 0 10px rgba(0, 0, 0, 0.07);
+}
+
+.chocolote {
+  position: absolute;
+  background-color: #573612;
+  height: 45px;
+  width: 25px;
+  top: 25px;
+  left: 0;
+  z-index: 2;
+  border-radius: 50px;
+  box-shadow: 25px 2px #fad7a0, 50px -10px #573612, 75px -5px #fad7a0, 100px 3px #573612, 125px 0 #fad7a0, 150px -5px #573612, 175px 3px #fad7a2, 200px -5px #573612, 225px -10px #fad7a2, 250px 4px #573612;
+}
+
+.candle {
+  position: absolute;
+  width: 15px;
+  height: 70px;
+  background-color: white;
+  top: -200px;
+  left: 30px;
+  box-shadow: inset 0 -10px #e74c3c;
+}
+
+.candle:before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: #e74c3c;
+  top: 10px;
+  box-shadow: 0 25px #e74c3c;
+}
+
+.candle:after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 15px;
+  background-color: black;
+  top: -15px;
+  left: 6px;
+}
+
+.flame {
+  position: absolute;
+  background-color: #f4d03f;
+  opacity: 0.9;
+  box-shadow: inset 0 -5px 5px #d35400, 5px -5px 20px #fbffa3;
+  background-color: #f4d03f;
+  width: 20px;
+  height: 30px;
+  top: -240px;
+  border-radius: 50%;
+  left: 26.5px;
+  animation: flame 0.5s infinite;
+}
+
+h1 {
+  font-family: "Licorice", cursive;
+  opacity: 0;
+  animation: 2;
+}
+
+.kue {
+  font-family: "Roboto Mono", monospace;
+  font-size: 20px;
+}
+
+@keyframes flame {
+  from,
+  to {
+    transform: scale(1, 1);
+  }
+  25% {
+    transform: scale(0.9, 1.1);
+  }
+  50% {
+    transform: scale(1.1, 0.9);
+  }
+  75% {
+    transform: scale(0.95, 1.05);
+  }
+}
