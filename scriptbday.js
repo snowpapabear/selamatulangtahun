@@ -11,3 +11,10 @@ $(window).scroll(function () {
     transform: "translate(0px, " + wScroll / 5 + "px)",
   });
 });
+
+$("#myLink").click(function () {
+  $(".flame").css({
+    opacity: 0,
+  });
+  return false;
+});
