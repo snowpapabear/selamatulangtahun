@@ -19,13 +19,14 @@ body {
 .birthday-cake {
   position: absolute;
   left: 50%;
-  top: 40%;
+  top: 45%;
+  width: auto;
 }
 
 .jumbotron {
   position: absolute;
   top: 70%;
-  left: 25%;
+  left: 22%;
   padding: 2rem 1rem;
   z-index: 5;
   width: auto;
