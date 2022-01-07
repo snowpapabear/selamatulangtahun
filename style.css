@@ -10,21 +10,21 @@ body {
   /* background-color: #68b8ab; */
   /* display: flex;
   justify-content: center;
-  align-items: center;
-  height: 100vh; */
-  height: 2000px;
+  align-items: center;*/
+  height: 100vh;
+  /* height: 2000px; */
 }
 
 .birthday-cake {
   position: relative;
-  left: 875px;
-  top: 370px;
+  left: 50%;
+  top: 40%;
 }
 
 .jumbotron {
   position: absolute;
-  top: 560px;
-  left: 550px;
+  top: 70%;
+  left: 25%;
   padding: 2rem 1rem;
   z-index: 5;
   /* background-color: #e2edff; */
