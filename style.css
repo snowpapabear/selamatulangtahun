@@ -28,6 +28,7 @@ body {
   left: 36%;
   padding: 2rem 1rem;
   z-index: 5;
+  width: auto;
   /* background-color: #e2edff; */
 }
 
