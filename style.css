@@ -17,7 +17,7 @@ body {
 }
 
 .birthday-cake {
-  position: relative;
+  position: absolute;
   left: 50%;
   top: 40%;
 }
@@ -175,8 +175,6 @@ body {
 
 h1 {
   font-family: "Licorice", cursive;
-  opacity: 0;
-  animation: 2;
 }
 
 .kue {
