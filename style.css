@@ -11,9 +11,14 @@ body {
   /* display: flex;
   justify-content: center;
   align-items: center;*/
-  /* height: 100vh; */
+  height: 100vh;
   width: auto;
-  height: 2000px;
+  /* height: 2000px; */
+}
+
+.container {
+  width: 100%;
+  height: 100%;
 }
 
 .birthday-cake {
@@ -182,6 +187,21 @@ h1 {
 .kue {
   font-family: "Roboto Mono", monospace;
   font-size: 20px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+section p {
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 @keyframes flame {
